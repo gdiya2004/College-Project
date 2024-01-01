@@ -31,9 +31,13 @@ font-size: 1.7em;
 .scroll-container{
     display:flex;
     flex-direction:row;
-overflow:auto;
+     overflow:scroll;
 white-space:nowrap;
 padding-bottom:20px;
+}
+.scroll-container::-webkit-scrollbar{
+    width:0%;
+    height:0%;
 }
 .image{
     margin-left:5px;
