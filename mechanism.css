@@ -5,8 +5,9 @@
     display:flex;
     font-family:sans-serif;
     padding:6px;
-   background-image:url("phool.webp");
-   background-size:cover;
+   /*background-image:url("phool.webp");
+   background-size:cover;*/
+   background-color:#f2f1eb;
 }
 .how32{
     width:65%;
