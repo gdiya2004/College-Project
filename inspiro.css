@@ -28,9 +28,6 @@
 }
     body
      {
-    /*background-color: #000;
-    height:90vh;
-    width:100%;*/
     overflow-x:hidden;
     }
     .avi{
@@ -595,10 +592,10 @@ font-weight:bold;
 border:4px inset black;
 text-decoration: underline;
 text-align:center;
+display:flex;
+justify-content: center;
+align-items: center;
 color:black;
-}
-.step32{
-    margin-top:180px;
 }
 .ONE32{
 background-image:url("boy1.jpg");
