@@ -393,9 +393,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-
 }
 #gototop a{
     background-color: white;
@@ -408,8 +405,7 @@ footer{
 padding: 1.5vw;
 margin-left:15vw;
    border-radius: 50%;
-   
-}
+   }
 #gototop a:hover{
     border:2px solid black;
     color: #3586ff;
@@ -420,13 +416,11 @@ margin-left:15vw;
     left: 0;
     width: 100vw;
     height: 100px;
-    background:url('wave.png');
+    background-image:url("wave.png");
 }
 .waves #wave1{
-    
-    opacity: 1;
-    
-    animation: animatewaves 4s linear infinite;
+     opacity: 1;
+     animation: animatewaves 4s linear infinite;
 }
 @keyframes animatewaves{
 0%{background-position-x:1000px;}
@@ -435,10 +429,8 @@ margin-left:15vw;
 }
 }
 .waves #wave2{
-    
-    opacity: 0.5;
-    
-    animation: animatewaves_2 3s linear infinite;
+     opacity: 0.5;
+     animation: animatewaves_2 3s linear infinite;
 }
 @keyframes animatewaves_2{
 0%{background-position-x:0px;}
@@ -447,19 +439,15 @@ margin-left:15vw;
 }
 }
 .waves #wave3{
-    
-    opacity: 0.2;
-    
-    animation: animatewaves 3s linear infinite;
+      opacity: 0.2;
+      animation: animatewaves 3s linear infinite;
 }
 
 .waves #wave4{
-
-    opacity: 0.7;
-    
-    animation: animatewaves_2 4s linear infinite;
+ opacity: 0.7;
+     animation: animatewaves_2 4s linear infinite;
 }
-
+/*arvind*/
  
 /*diya1*/
 .heading1:first-letter{
@@ -667,16 +655,17 @@ margin-bottom:15px;
     width: 100%;
     height: 100vh;
     border: 2px solid black;
-    background-image: url("https://t3.ftcdn.net/jpg/03/89/32/80/360_F_389328016_ak3iUrk15slWfEZdYL96O6eKTUyImDeC.jpg");
-    background-size: cover;
-    color: white;
+     color: white;
+     background-image:url("ohoo.jpg");
+     background-size:cover;
   }
   .heading_23{
-    font-size: 110px;
-    margin: 15px;
-    background: linear-gradient(180deg, skyblue, white);
+    font-size: 90px;
+    padding-top: 0px;
+    color:black;
+   /* background: linear-gradient(180deg, skyblue, white);
     color: transparent;
-    background-clip:text;
+    background-clip:text;*/
   }
   a {
     color: black;
@@ -692,9 +681,11 @@ margin-bottom:15px;
   }
   .social ul li {
     display: block;
-    margin: 25px;
+    margin-bottom: 20px;
+    margin-right:20px;
+    margin-left:20px;
     background: rgba(0, 0, 0, 0.36);
-    width: 15.625vw;
+    width: 15.630vw;
     text-align: right;
     padding: 10px;
     border-radius: 0 30px 30px 0;
@@ -744,8 +735,12 @@ margin-bottom:15px;
     font-size: 30px;
     transform: rotate(0deg)
   }
-  .class_23{
+  .baani5{
+    padding-bottom:4px;
+  }
+  /*.class_23{
     display: flex;
+    flex-wrap:wrap;
   }
   .emo_23 h2{
     font-size: 55px;
@@ -756,12 +751,35 @@ margin-bottom:15px;
   }
   .emo_23 li{
     font-size: 35px; 
+  }*/
+  .first32_img{
+    border:1px solid black;
+    width:20vw;
+    height:35vh;
+    margin-right:1vw;
+    margin-top:8vh;
+  }
+  .second32_img{
+    border:1px solid black;
+    width:30vw;
+    height:35vh;
+    margin-top:8vh;
+  }
+  .third32_img{
+    border:1px solid black;
+    width:40vw;
+    height:30vh;
+    margin-right:1vw;
+  }
+  .fourth32_img{
+    border:1px solid black;
+    width:20vw;
+    height:30vh;
   }
   .c_23feed{
     display:flex;
   }
 .bdy1{
-   /* border: 2px solid transparent;*/
     height: 90vh;
     width:30%;
     background-color:#b19470;
