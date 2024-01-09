@@ -2,28 +2,30 @@
     height: 90vh;
     width: 100%;
     background-color: black;
-    background-image: url("");
-    background-size: cover;
+    
+    
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .feedback_body{
+    
     height: 85vh;
     width: 30vw;
-    border: 2px solid aqua;
+    border: 1px solid aqua;
     border-radius: 5px;
     /* background-color:; */
     box-shadow: 0 0 55px aqua;
-    color: blsck;
+    
     color: white;
     background-color: black;
 
 }
 .feedback_body h1{
-    font-size: 45px;
-    position: relative;;
+    
+    font-size: 5px;
+    position: relative;
     left: 5px;
 }
 .username{
@@ -110,7 +112,7 @@
    font-family: fontAwesome;
    display: block;
    font-size: 40px;
-   color: aqua;
+   color: gold;
    position: absolute;
    top: 0;
    opacity:0;
@@ -131,5 +133,5 @@ opacity: 1;
     font-size: 18px;
 }
 .subbut23:hover{
-    background-color: aqua;
+    background-color: gold;
 }
