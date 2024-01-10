@@ -1520,3 +1520,234 @@ margin-bottom:15px;
                 .subbut23:hover{
                     background-color: #009688;
                 }
+/* baani education */
+
+#education{
+    background-color: #f8e3bf;
+    width: 100%;
+    height: 110vh;
+}
+.content_23{
+    display: flex;
+}
+.edupart1{
+    margin-left: 5vh;
+    margin-right: 15vh;
+    display: flex;
+}
+.edu {
+font-size: 60px;
+
+font-style: italic;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+margin-left: 10vw;
+margin-top: 5vh;
+}
+.edu a{
+    
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:black;
+    font-weight: normal;
+}
+.edu_pic1{
+    background-image: url("https://wallpapercave.com/wp/wp2003357.jpg");
+    background-size: cover;
+    height: 40vh;
+    width: 35vw;
+   margin-left: 15vh;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    transition: all 0.2s ease 0s;
+}
+.edu_pic2{
+    background-image: url("https://www.businesscoachchicago.com/wp-content/uploads/2018/07/education.jpg");
+    background-size: cover;
+    height:40vh;
+    width: 35vw;
+   border-radius: 15px;
+    transition: all 0.2s ease 0s;
+    margin-left: 15vh;
+    transition: all 0.2s ease 0s;
+}
+
+.edu_pic3{
+    background-image: url("https://www.kingskyfa.com/wp-content/uploads/2020/10/graduation-hat-on-stack-of-books-1024x683.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 58vh;
+    width: 85vh; 
+   margin-left: 2vh;
+   margin-top: 2vh;
+   
+  
+    
+    
+    /* top: 0.5vw; */
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+}
+#eduonetexttwo{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-radius: 2vh;
+    padding: 0.2vw;
+    background-color: transparent;
+    border: 2px solid white;
+    width:fit-content;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.edu_pic1:hover{
+    transform: scale(1.03);
+}
+.edu_pic2:hover{
+    transform: scale(1.03);
+}
+.edu_pic3:hover{
+    transform: scale(1.03);
+}
+.quote23{
+    background-color: white;
+    max-width: fit-content;
+    margin: 2vh;
+    font-size: 22px;
+    z-index: 100;
+    
+}
+
+#edu_content23 {
+/* background-color:#f6f4f1 ; */
+width:85vh;
+height: 22vh;
+overflow: hidden;
+align-content: end;
+font-size: 20px;
+border-radius: 15px;
+background:rgb(232, 186, 113);
+margin-left: 2vh;
+   margin-top: 2vh;
+   transition: all 0.2s ease 0s;
+
+}
+#edu_content23:hover {
+transform: scale(1.03);
+}
+
+
+/* baani finance */
+
+
+#financebody{
+height: 110vh;
+width: 100%;
+display :flex;
+/* background-color:rgb(244, 244, 221); */
+background-color: #daf0ff;
+}
+.financehead{
+display: flex;
+}
+.financehead h1{
+font-size: 60px;
+position: relative;
+top: 3vw;
+left: 9.2vw; 
+font-style: italic;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+}
+.seefinance{
+position: relative;
+top: 5.5vw;
+left: 9.9vw; 
+font-size: 20px;
+font-style: italic;
+font-family: 'Poppins', sans-serif;
+}
+.financepic1{
+background-image: url("https://wallpaperboat.com/wp-content/uploads/2021/04/15/75170/finance-08.jpg");
+background-size: cover;
+height: 39vw;
+width: 40vw;
+position: relative;
+ left: 9vw;
+top: 5vw;  
+
+border-radius: 25px;
+transition: all 0.2s ease 0s;
+}
+.img23finance{
+display: flex;
+}
+.financeimg2{
+background-image: url("https://wallpapercave.com/wp/wp2446263.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 36vw;
+height:20vw;
+position: relative;
+top: 9.5vw;
+left: 10vw;
+border-radius: 15px;
+transition: all 0.2s ease 0s;
+
+}
+.financeimg3{
+background-image: url("https://c1.wallpaperflare.com/preview/972/400/963/money-home-coin-investment.jpg");
+background-size: cover;
+height: 19vw;
+width: 21vw;
+position: relative;
+left: 10vw;
+top: 10.5vw;
+border-radius: 15px;
+transition: all 0.2s ease 0s;
+
+}
+.financeimg4{
+height: 0;
+width: 14vw;
+position: relative;
+left: 32vw;
+top: -9.5vw;
+
+border-radius: 15px;
+transition: all 0.2s ease 0s;
+
+}
+.financeimg4 pre{
+color: black;
+font-size: 18px;
+position: relative;
+top: 1vw;
+height: 19vw;
+background-color: rgb(155, 199, 255);
+font-family: 'Poppins', sans-serif;
+border-radius: 15px;
+width:fit-content;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.img34finance{
+display: flex;
+}
+.financepic1:hover{
+transform: scale(1.05);
+}
+.financeimg2:hover{
+transform: scale(1.05);
+}
+.financeimg3:hover{
+transform: scale(1.05);
+}
+.financeimg4:hover{
+transform: scale(1.05);
+}
