@@ -107,19 +107,22 @@
    
     color: #3586ff;
 }
+/*modified.....*/
 #searchbox{
-    width: fit-content;
-    padding: 1vh;
+  width: fit-content;
     background-color:#000;
     outline: none !important;
     border: 2px solid white;
     border-radius: 5vh;
-    
+    padding:4px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
 }
 #searchbox:hover{
     border:2.5px solid #3586ff;
     color: #3586ff;
-
 }
 ::placeholder{
     color: white;
@@ -130,14 +133,9 @@
     background:transparent;
     color: white;
     font-size: 1.2vw;
-    flex:1;
+    /*flex:1;*/
     border: 0;
     outline: none;
-    
-}
-#searchbox:hover{
-    
-    background-color:none;
 }
 #searchbutton{
     color: white;
@@ -145,8 +143,8 @@
     background:transparent;
     height: 30px;
 }
+/*modificatuion done*/
 #loginbutton{
-    
     width: fit-content;
     background: transparent;
     outline:transparent;
@@ -697,7 +695,7 @@ margin-bottom:15px;
   }
   .social ul {
     padding: 0px;
-    transform: translate(-29vh,0);
+    transform: translate(-28vh,0);
   }
   .social ul li {
     display: block;
