@@ -546,7 +546,7 @@ background-repeat:no-repeat;
 }
 .browse-temp32{
     width:35%;
-    height:99vh;
+    height:98vh;
   color:white;
   background-color:black;
 padding:1vh;
@@ -574,13 +574,11 @@ align-items:center;
 }
 .search-text32{
     font-size:larger;
-    /*margin-bottom:5px;*/
     font-size:25px;
 }
 .search-box32{
     width:250px;
     height:30px;
-/*margin-top:1vh;*/
 }
 .heading232{
     text-align:center;
@@ -607,31 +605,38 @@ align-items:center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     display: flex;
-   padding-top: 5vh;
+  margin-top: 2vh;
+  padding:1vh;
       animation: appearAnimation 1s forwards; 
-    background-blend-mode: lighten;
-    margin-left: 15vh;
+    margin-left: 12vh;
     color: black;
-    background-clip:text;
+    background:rgba(255,255,255,0.4);
+    display:inline-block;
   }
   
   .social {
     position: relative;
-    display: flex;
+    left:2.5vh;
+    cursor:pointer;
   }
   .social ul {
     padding: 0px;
     transform: translate(-28vh,0);
+    list-style:none;
+    color:black;
+    cursor:pointer;
   }
   .social ul li {
     display: block;
-    margin: 2vh;
+   margin: 2vh;
+   margin-left:0vh;
     background: rgba(0, 0, 0, 0.36);
     width: 15.625vw;
     text-align: right;
     padding: 10px;
     border-radius: 0 30px 30px 0;
     transition : all 1s ;
+    cursor:pointer;
   }
   .social ul li:hover {
     transform: translate(8.5vw, 0);
@@ -770,12 +775,13 @@ align-items:center;
         flex-direction: column;
     }
     #lifetwo_one{
-        width: 100%;
+        width: 55vh;
         height: 50%;
         background-image: url("lifetwoimg.jpg");
         border-radius: 2vw;
         transition: all 0.2s ease 0s;
         background-size: cover;
+        padding:2vh;
     }
     #lifetwo_one p{
         display: inline;
@@ -794,7 +800,7 @@ align-items:center;
     }
     #lifetwo_two{
         margin-top: 3vh;
-        width: 100%;
+        width: 59vh;
         height:50%;
         background-image: url("lifethreeimg.jpg");
         border-radius: 2vw;
@@ -837,7 +843,6 @@ align-items:center;
         width: 20vw;
         background-image: url("food2img.jpg");
         height: 60vh;
-        
         background-size: cover;
         transition: all 0.2s ease 0s;
     }
@@ -854,14 +859,16 @@ align-items:center;
     }
     #foodonetexttwo{
         margin-left: 2vw;
-        margin-top: 2vh;
+        margin-top: 1vh;
         border-radius: 2vh;
-        padding: 0.2vw;
-        background-color: transparent;
-        border: 2px solid white;
+        padding: 0.5vw;
+        border: 2px solid black;
         width:fit-content;
-        color:white;
+        color:black;
         font-family: 'Poppins', sans-serif;
+        font-weight:bold;
+        background:rgba(255,255,255,0.5);
+        display:inline-block;
     }
     #foodonetextthree{
         margin-left:30vw;
@@ -919,26 +926,26 @@ align-items:center;
         transform: scale(1.05);
     }
     #foodtwo_three{
-        margin-left: 3vh;
-        
+       margin-left: 3vh;
         width: 16vw;
-        height:22vh;
+        height:28vh;
         background-color: pink;
         border-radius: 2vw;
         background-size: cover;
         transition: all 0.2s ease 0s;
-        color: white;
-        padding:5vh;
+        color: black;
+        padding:3vh;
         font-size: 3vh;
     }
     #foodtwo_three a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-align: right;
     }
     #foodtwo_three:hover{
         transform: scale(1.05);
     }
+    /*travel*/
     #travesection{
         background-color: rgb(187, 231, 255);
         height: 100vh;
@@ -1048,7 +1055,6 @@ align-items:center;
         #traveltwo_one:hover {
             transform: scale(1.05);
         }
-        
         #traveltwo_two{
             margin-left: 3vh;
             width: 50%;
@@ -1061,7 +1067,6 @@ align-items:center;
         #traveltwo_two:hover{
             transform: scale(1.05);
         }
-    
         #technologysection{
             background-color: rgb(0, 0, 0);
             height: 100vh;
@@ -1076,8 +1081,7 @@ align-items:center;
                 font-size: 8vh;
                 font-family: 'Poppins', sans-serif;
                 padding-top: 5vh;
-                font-weight:bold
-                
+                font-weight:bold;
             }
             #techheading a{
                 text-decoration: none;
@@ -1088,12 +1092,9 @@ align-items:center;
             #techsection{
                 display: flex;
                 margin-left: 10vw;
-                margin-right: 10vw;
-                
-            
+                margin-right: 10vw;   
             }
             #techone{
-                
                 border-radius: 2vw;
                 width: 25vw;
                 background-image: url("https://img.freepik.com/free-photo/top-view-unrecognizable-hacker-performing-cyberattack-night_1098-18706.jpg?w=360&t=st=1704445071~exp=1704445671~hmac=c9fb0df75d7977c8d91353bd194c87335e9292cb59e94953d1911a56886fbe79");
@@ -1131,40 +1132,26 @@ align-items:center;
                 background-color:rgba(256,256,256,);
                 border: 2px solid white;
                 border-radius: 2vh;
-            
             }
             #techtwo_onetext{
-            
                     margin-left:60%;
                     text-align: right;
                     padding:2vh;
                     background-color:rgba(256,256,256,);
-                   
-                
-                
                 }
                 #techtwo_onetext p{
                     display: inline;
                 background: white;
-                
                 font-size: 3vh;
                 border: 2px solid white;
                 }
-            
             #techtwo{
-                
                 width:auto;
                 background-color: transparent;
                 height: 80vh;
-                
                 background-size: cover;
-                
-                
             }
-            
-            #techtwo_two{
-                
-                
+            #techtwo_two{  
                 margin-top: 2vh;
                 width: 50vw;
                 height:50vh;
@@ -1172,7 +1159,6 @@ align-items:center;
                 border-radius: 2vw;
                 background-size: cover;
                 transition: all 0.2s ease 0s;
-                
             }
             #techtwo_two:hover{
                 transform: scale(1.05);
@@ -1180,19 +1166,19 @@ align-items:center;
             #techtwo_three{
                 margin-top: 5vh;
                 width: 46vw;
-                height:15vh;
+                height:20vh;
                 background-color: rgb(152, 152, 152);
                 border-radius: 2vw;
                 background-size: cover;
                 transition: all 0.2s ease 0s;
                 color: white;
-                padding:4vh;
+                padding:3vh;
                 font-size: 3vh;
             }
             #techtwo_three a{
             text-decoration: none;
             color: white;
-            text-align: right;
+            text-align:right;
             }
             #techtwo_three:hover{
                 transform: scale(1.05);
@@ -1254,7 +1240,6 @@ align-items:center;
                     width: 30vw;
                     border: 2px solid #009688;
                     border-radius: 5px;
-                    /* background-color:; */
                     box-shadow: 0 0 20px #009688;
                     font-family: 'Poppins', sans-serif;
                     color: white;
@@ -1263,7 +1248,7 @@ align-items:center;
                 .feedback_body h1{
                     margin-top: 5vh;
                     font-size: 45px;
-                    position: relative;;
+                    position: relative;
                     left: 5px;
                     text-align: center;
                 }
@@ -1301,7 +1286,8 @@ align-items:center;
                    left: 0.6vw;
                    top: 1.4vw;
                 }
-                .email ::placeholder{color:black;
+                .email ::placeholder{
+                    color:black;
                     font-family: 'Poppins', sans-serif;}
                 .Comments{
                     display: flex;
@@ -1333,7 +1319,6 @@ align-items:center;
                     justify-content: center;
                     position:relative ;
                     top: 3vw;
-                    /* background-color:black; */
                     transform: rotateY(180deg);
                 }
                 .rating input{
@@ -1363,7 +1348,6 @@ align-items:center;
                    top: 0;
                    opacity:0;
                    transition: .3s;
-                   /* text-shadow: ; */
                 }
                 .rating label:hover:after,
                 .rating label:hover~label:after,
@@ -1398,7 +1382,6 @@ align-items:center;
 }
 .edu {
 font-size: 60px;
-
 font-style: italic;
 font-weight: bold;
 font-family: 'Poppins', sans-serif;
@@ -1406,7 +1389,6 @@ margin-left: 10vw;
 margin-top: 5vh;
 }
 .edu a{
-    
     font-size: 20px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
@@ -1474,6 +1456,7 @@ margin-top: 5vh;
     margin: 2vh;
     font-size: 22px;
     z-index: 100;
+    display:inline-block;
 }
 #edu_content23 {
 width:85vh;
@@ -1574,21 +1557,18 @@ font-family: 'Poppins', sans-serif;
 border-radius: 15px;
 width:fit-content;
 }
-html{
-    scroll-behavior: smooth;
-}
 .img34finance{
 display: flex;
 }
 .financepic1:hover{
-transform: scale(1.05);
+transform: scale(1.03);
 }
 .financeimg2:hover{
-transform: scale(1.05);
+transform: scale(1.03);
 }
 .financeimg3:hover{
-transform: scale(1.05);
+transform: scale(1.03);
 }
 .financeimg4:hover{
-transform: scale(1.05);
+transform: scale(1.03);
 }
