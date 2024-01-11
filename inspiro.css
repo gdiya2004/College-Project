@@ -29,9 +29,6 @@
 }
     body
      {
-    /*background-color: #000;
-    height:90vh;
-    width:100%;*/
     margin: 0;
     padding: 0;
     overflow-x:hidden;
@@ -75,7 +72,6 @@
     display: block;
     }
 #logoimg{
- 
     transform: scale(0.4);
 }  
 #logoimg :hover{
@@ -85,29 +81,21 @@
     padding:20px 25px;
     text-decoration: none;
     color: white;
-    
     border-radius: 10vh;
-    
 }
 #aboutus:hover{
-    
    color: #3586ff;
-  
 }
 #home{
     padding:20px 25px;
     text-decoration: none;
     color: white;
-    
     animation: all 2s ease-in 5s ;
-    border-radius: 10vh;
-   
+    border-radius: 10vh;  
 }
-#home:hover{
-   
+#home:hover{  
     color: #3586ff;
 }
-/*modified.....*/
 #searchbox{
   width: fit-content;
     background-color:#000;
@@ -128,12 +116,10 @@
     color: white;
     font-size: 1.2vw;
 }
-
 #searchbox input{
     background:transparent;
     color: white;
     font-size: 1.2vw;
-    /*flex:1;*/
     border: 0;
     outline: none;
 }
@@ -143,7 +129,6 @@
     background:transparent;
     height: 30px;
 }
-/*modificatuion done*/
 #loginbutton{
     width: fit-content;
     background: transparent;
@@ -171,7 +156,6 @@
 #signinbutton:hover{
     border:2.5px solid  #3586ff;
     }
-
 #categoryone {margin-top: 7vh;
     display: flex;
     overflow:hidden;
@@ -181,23 +165,19 @@
     position:absolute;
     background-color:black;
     }
-
 .travel {
     border: 2px solid transparent;
     height: contain;
-    min-width: 50vh;
+    min-width: 47.5vh;
     padding: 1vh;
     border-radius: 10px;
     background-color: white;
-    
     margin-right: 15px;
     scroll-snap-align: start;
-    animation: scroll 10s linear infinite;
+    animation: scroll 12s linear infinite;
     animation-play-state: running;
-    transition: transform 0.3s ease; 
-    
+    transition: transform 0.3s ease;    
 }
-
 .categoryone:hover .travel {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
@@ -211,8 +191,6 @@
 .travel a:hover{
     color: rgb(229, 138, 19);
 }
-
-
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -227,8 +205,6 @@
 #three{
     height: 200px;
 }
-
-
 .backgrd_img{
     background-color: black;
     height:90vh;
@@ -238,19 +214,15 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
-
 .index{
     color: white;  
     font-size: 6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     display: flex;
-   /* margin-top: 5vh;*/
       animation: appearAnimation 1s forwards;
-    
     background-color:black;
 }
-
 @keyframes appearAnimation {
     0% {
         opacity: 0;
@@ -268,7 +240,6 @@
     text-align: justify;
     animation: appearAnimation 1s forwards;
 }
-
 button{
     height: 6vh;
     width: 10vw;
@@ -284,9 +255,7 @@ button{
      overflow-clip-margin: content-box;
      position:relative;
      align-self: center;
-     
 }
-
  .img_container{ 
       right: 1rem;
      width: 100%;
@@ -298,7 +267,6 @@ button{
 .img_baani{
     background-position-x: center;
     width: 500px;
-    /* margin-top: 15px; */
     overflow-clip-margin: content-box;
     border: 2vw solid black;
 }
@@ -306,20 +274,12 @@ button{
      0% { transform: translateY(0%); }
      100% { transform: translateY(-100%); }
  }
- 
  button:hover{
    background-color: rgb(212, 212, 212);
  }
-
-
-
-
-
- #fcontainer{
-    
+#fcontainer{
     width: 100vw;
     display: flex;
-    
     justify-content: center;
     height: 30vh;
     background-color: #3586FF;
@@ -332,25 +292,21 @@ footer{
     margin-right: 5vh;
     width: 10%;
     transform: scale(0.5);
-
 }
-#fabout{
-    
+#fabout
+{
     width:15%;
     height:10%;
     background-color:#3586ff;
     margin-top: 8vh;
     justify-content: center;
     text-align: center;
-    font-size: 2vh;
-    
+    font-size: 2vh;   
 }
-
 #fabout  a{
     text-decoration: none;
     color: white;
-    font-size: 2vh;
-    
+    font-size: 2vh;   
 }
 #fabout  a:hover{
     color: black;
@@ -379,7 +335,6 @@ footer{
     padding-top: 5vh;
     text-align: center;
     justify-content: center;
-    
 }
 #fcontact a{
     text-decoration: none;
@@ -391,15 +346,11 @@ footer{
     color: black;
 }
 #gototop{ 
-   
     width:15%;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-
 }
 #gototop a{
     background-color: white;
@@ -412,7 +363,6 @@ footer{
 padding: 1.5vw;
 margin-left:15vw;
    border-radius: 50%;
-   
 }
 #gototop a:hover{
     border:2px solid black;
@@ -427,9 +377,7 @@ margin-left:15vw;
     background:url('wave.png');
 }
 .waves #wave1{
-    
     opacity: 1;
-    
     animation: animatewaves 4s linear infinite;
 }
 @keyframes animatewaves{
@@ -439,9 +387,7 @@ margin-left:15vw;
 }
 }
 .waves #wave2{
-    
     opacity: 0.5;
-    
     animation: animatewaves_2 3s linear infinite;
 }
 @keyframes animatewaves_2{
@@ -451,22 +397,14 @@ margin-left:15vw;
 }
 }
 .waves #wave3{
-    
     opacity: 0.2;
-    
     animation: animatewaves 3s linear infinite;
 }
-
 .waves #wave4{
-
     opacity: 0.7;
-    
     animation: animatewaves_2 4s linear infinite;
 }
-
- 
 /*diya1*/
-
 .build-template{
     font-family: 'Poppins', sans-serif;
     width:100vw;
@@ -476,13 +414,9 @@ margin-left:15vw;
     background-image:url("bulbsss.png");
     background-size:cover;
     color:black;
-    
 }
 .heading1{
-  /*  margin-top: 30px;*/
-   /* margin-left: 6.5vw;*/
     height:auto;
-   /* width:100%;*/
      display: flex;
     font-size:5rem;
     margin-bottom:10vh;
@@ -519,8 +453,7 @@ flex-wrap:nowrap;
     width:28vw;
     padding-right:3vh;
     overflow: wrap;
-    text-align: justify;
-    
+    text-align: justify;   
 }
 /*diya2*/
 .mechanism-box32{
@@ -551,7 +484,6 @@ flex-wrap:nowrap;
 .how-heading32:first-letter{
     font-size:1.2em;
 }
-
 .maincontainer32{
     position:relative;
     width:25vh;
@@ -612,15 +544,13 @@ background-image:url("boy3.jpg");
 background-size:contain;
 background-repeat:no-repeat;
 }
-/*diya2*/
 .browse-temp32{
     width:35%;
     height:99vh;
   color:white;
   background-color:black;
-padding-top:1vh;
+padding:1vh;
 }
-
 .choice32{
     display:inline-block;
     border:1px inset white;
@@ -637,19 +567,20 @@ padding-top:1vh;
 justify-content:center;
 align-items:center;
   border:2px solid white;
-    padding:4px;
+   padding:2vh;
    width: 30vw;
-   margin-left: 3vh;
+   margin-top:10vh;
+   margin-left:2vh;
 }
 .search-text32{
     font-size:larger;
-    margin-bottom:5px;
+    /*margin-bottom:5px;*/
     font-size:25px;
 }
 .search-box32{
     width:250px;
     height:30px;
-margin-bottom:15px;
+/*margin-top:1vh;*/
 }
 .heading232{
     text-align:center;
@@ -657,7 +588,6 @@ margin-bottom:15px;
    margin-bottom: 1vh;
 }
 .heading332{
-
     font-size:8vh;
     text-align:center;
    /* padding-top:10vh;*/
@@ -668,22 +598,18 @@ margin-bottom:15px;
 .backgrd_23{
     width: 100vw;
     height: 100vh;
-    
     background-image: url("https://agselaw.com/wp-content/uploads/2016/03/271-56d630db0ff08.jpg");
     background-size: cover;
     color: white;
   }
   .heading_23{
-     
     font-size: 5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     display: flex;
    padding-top: 5vh;
-      animation: appearAnimation 1s forwards;
-    
-    
-    
+      animation: appearAnimation 1s forwards; 
+    background-blend-mode: lighten;
     margin-left: 15vh;
     color: black;
     background-clip:text;
@@ -722,7 +648,6 @@ margin-bottom:15px;
     transform: rotate(360deg);
     transition: all 1s;
   }
-  
   .social ul li:hover .fa-square-instagram {
     color:#E1306C;
   }
@@ -738,8 +663,6 @@ margin-bottom:15px;
   .social ul li:hover .fa-linkedin{
     color:#0077b5;
   }
-  
-  
   .social ul li i {
     margin-left: 10px;
     color: #fff;
@@ -765,9 +688,6 @@ margin-bottom:15px;
   .emo_23 li{
     font-size: 35px; 
   }
-  
-  
-  
 #lifesection{
     background-color: rgb(248, 227, 191);
     height: 100vh;
@@ -782,10 +702,8 @@ margin-bottom:15px;
         font-size: 8vh;
         font-family: 'Poppins', sans-serif;
         padding-top: 5vh;
-        font-weight:bold
-        
+        font-weight:bold;   
     }
-    
     #lifestyleheading a{
         text-decoration: none;
         font-size: 2.5vh;
@@ -797,8 +715,6 @@ margin-bottom:15px;
         display: flex;
         margin-left: 10vw;
         margin-right: 10vw;
-        
-    
     }
     #lifeone{
         margin-top: 10vh;
@@ -806,7 +722,6 @@ margin-bottom:15px;
         width: 50vw;
         background-image: url("pxfuel.jpg");
         height: 70vh;
-        
         background-size: cover;
         transition: all 0.2s ease 0s;
     }
@@ -836,17 +751,12 @@ margin-bottom:15px;
         margin-left:30vw;
         text-align: right;
         padding: 2vw;
-        
-     
         border-radius: 2vh;
-        
         overflow: hidden;
-    
     }
     #lifeonetextthree p{
         display: inline;
         background: white;
-        
         font-size: 3vh;
         border: 2px solid white;
     }
@@ -863,31 +773,22 @@ margin-bottom:15px;
         width: 100%;
         height: 50%;
         background-image: url("lifetwoimg.jpg");
-        
         border-radius: 2vw;
         transition: all 0.2s ease 0s;
         background-size: cover;
-        
-    
     }
     #lifetwo_one p{
         display: inline;
         background: white;
-        
         font-size: 3vh;
         border: 2px solid white;
         margin-top:2vh;
         bottom:5%;
-        
-        
     }
     #lifetwo_one a{
         text-decoration: none;
         color: white;
-        
-    
     }
-    
     #lifetwo_one:hover{
         transform: scale(1.05);
     }
@@ -903,7 +804,6 @@ margin-bottom:15px;
     #lifetwo_two:hover{
         transform: scale(1.05);
     }
-    
     #foosection{
     background-color: rgb(241, 221, 242);
     height: 100vh;
@@ -918,8 +818,7 @@ margin-bottom:15px;
         font-size: 8vh;
         font-family: 'Poppins', sans-serif;
         padding-top: 5vh;
-        font-weight:bold
-        
+        font-weight:bold;
     }
     #foodheading a{
         text-decoration: none;
@@ -931,8 +830,6 @@ margin-bottom:15px;
         display: flex;
         margin-left: 10vw;
         margin-right: 10vw;
-        
-    
     }
     #foodone{
         margin-top: 10vh;
@@ -973,26 +870,19 @@ margin-bottom:15px;
         background-color:rgba(256,256,256,);
         border: 2px solid white;
         border-radius: 2vh;
-    
     }
     #foodtwo_onetext{
-    
             margin-left:60%;
             text-align: right;
             padding:2vh;
             background-color:rgba(256,256,256,);
-           
-        
-        
         }
         #foodtwo_onetext p{
             display: inline;
         background: white;
-        
         font-size: 3vh;
         border: 2px solid white;
         }
-    
     #foodtwo{
         margin-left: 3vh;
         width:80vw;
@@ -1010,7 +900,6 @@ margin-bottom:15px;
         border-radius: 2vw;
         transition: all 0.2s ease 0s;
         background-size: cover;
-    
     }
     #foodtwo_one:hover{
         transform: scale(1.05);
@@ -1064,8 +953,7 @@ margin-bottom:15px;
             font-size: 8vh;
             font-family: 'Poppins', sans-serif;
             padding-top: 5vh;
-            font-weight:bold
-            
+            font-weight:bold;
         }
         #travelheading a{
             text-decoration: none;
@@ -1077,17 +965,13 @@ margin-bottom:15px;
             display: flex;
             margin-left: 10vw;
             margin-right: 10vw;
-            
-        
         }
         #travelone{
-            
             border-radius: 2vw;
             width: 25vw;
             background-image: url("travel1img.webp");
             height: 50vh;
             margin-top: 30vh;
-            
             background-size: cover;
             transition: all 0.2s ease 0s;
         }
@@ -1098,7 +982,6 @@ margin-bottom:15px;
             color: white;
             padding: 0.5vh;
             margin-left: 2vw;
-            
         }
         #travelone:hover{
             transform: scale(1.03);
@@ -1126,17 +1009,12 @@ margin-bottom:15px;
             margin: 1vw;
             text-align: left;
             padding: 1vw;
-            
-         
             border-radius: 2vh;
-            
             overflow: hidden;
-        
         }
         #travelonetextthree p{
             display: inline;
-            background: white;
-            
+            background: white;   
             font-size: 3vh;
             border: 2px solid white;
         }
@@ -1158,21 +1036,15 @@ margin-bottom:15px;
             transition: all 0.2s ease 0s;
             background-size: cover;
         }
-        
         #traveltwo_one p {
             display: inline;
             background: white;
             font-size: 3vh;
-            border: 2px solid white;
-            
-            
+            border: 2px solid white;   
             position:relative;
             bottom: 10%;
             overflow:auto
         }
-        
-       
-        
         #traveltwo_one:hover {
             transform: scale(1.05);
         }
@@ -1181,9 +1053,7 @@ margin-bottom:15px;
             margin-left: 3vh;
             width: 50%;
             height:80vh;
-            
-    
-            background-image: url("travel2img.avif");
+            background-image: url("fortravel2.jpg");
             border-radius: 2vw;
             background-size: cover;
             transition: all 0.2s ease 0s;
@@ -1325,10 +1195,8 @@ margin-bottom:15px;
             text-align: right;
             }
             #techtwo_three:hover{
-                transform: scale(1.05);}
-
-
-
+                transform: scale(1.05);
+            }
                 .c_23{
                     display: flex;
                 }
@@ -1354,8 +1222,7 @@ margin-bottom:15px;
                     margin-left: 15vh;
                     line-height: 5vh;
                 }
-                .bimg23 button{
-                    
+                .bimg23 button{       
                     background-color: black;
                     border-radius: 4px;
                     position: relative;
@@ -1364,7 +1231,6 @@ margin-bottom:15px;
                     width: 10vw;
                     left: 19vw;
                 }
-    
                 .bimg23 a{
                 font-size: 25px;
                 text-decoration: none;
@@ -1372,7 +1238,6 @@ margin-bottom:15px;
                 font-weight: 500;
                 padding: 0;
                 }
-
                 .feedback{
                     height: 90vh;
                     width: 100%;
@@ -1394,7 +1259,6 @@ margin-bottom:15px;
                     font-family: 'Poppins', sans-serif;
                     color: white;
                     background-color: black;
-                
                 }
                 .feedback_body h1{
                     margin-top: 5vh;
@@ -1402,7 +1266,6 @@ margin-bottom:15px;
                     position: relative;;
                     left: 5px;
                     text-align: center;
-                    
                 }
                 .username{
                     margin-top: 8vh;
@@ -1418,7 +1281,6 @@ margin-bottom:15px;
                    position: relative;
                    left: 0.5vw;
                    top: 0.2vw;
-                
                 }
                 .username ::placeholder{color:black;
                     font-family: 'Poppins', sans-serif;}
@@ -1438,7 +1300,6 @@ margin-bottom:15px;
                    position: relative;
                    left: 0.6vw;
                    top: 1.4vw;
-                
                 }
                 .email ::placeholder{color:black;
                     font-family: 'Poppins', sans-serif;}
@@ -1584,11 +1445,6 @@ margin-top: 5vh;
     width: 85vh; 
    margin-left: 2vh;
    margin-top: 2vh;
-   
-  
-    
-    
-    /* top: 0.5vw; */
     border-radius: 15px;
     transition: all 0.2s ease 0s;
 }
@@ -1618,11 +1474,8 @@ margin-top: 5vh;
     margin: 2vh;
     font-size: 22px;
     z-index: 100;
-    
 }
-
 #edu_content23 {
-/* background-color:#f6f4f1 ; */
 width:85vh;
 height: 22vh;
 overflow: hidden;
@@ -1633,21 +1486,15 @@ background:rgb(232, 186, 113);
 margin-left: 2vh;
    margin-top: 2vh;
    transition: all 0.2s ease 0s;
-
 }
 #edu_content23:hover {
 transform: scale(1.03);
 }
-
-
 /* baani finance */
-
-
 #financebody{
 height: 110vh;
 width: 100%;
 display :flex;
-/* background-color:rgb(244, 244, 221); */
 background-color: #daf0ff;
 }
 .financehead{
@@ -1677,8 +1524,7 @@ height: 39vw;
 width: 40vw;
 position: relative;
  left: 9vw;
-top: 5vw;  
-
+top: 5vw; 
 border-radius: 25px;
 transition: all 0.2s ease 0s;
 }
@@ -1696,7 +1542,6 @@ top: 9.5vw;
 left: 10vw;
 border-radius: 15px;
 transition: all 0.2s ease 0s;
-
 }
 .financeimg3{
 background-image: url("https://c1.wallpaperflare.com/preview/972/400/963/money-home-coin-investment.jpg");
@@ -1708,7 +1553,6 @@ left: 10vw;
 top: 10.5vw;
 border-radius: 15px;
 transition: all 0.2s ease 0s;
-
 }
 .financeimg4{
 height: 0;
@@ -1716,10 +1560,8 @@ width: 14vw;
 position: relative;
 left: 32vw;
 top: -9.5vw;
-
 border-radius: 15px;
 transition: all 0.2s ease 0s;
-
 }
 .financeimg4 pre{
 color: black;
@@ -1731,7 +1573,6 @@ background-color: rgb(155, 199, 255);
 font-family: 'Poppins', sans-serif;
 border-radius: 15px;
 width:fit-content;
-
 }
 html{
     scroll-behavior: smooth;
