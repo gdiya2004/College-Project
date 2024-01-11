@@ -346,11 +346,12 @@ footer{
     color: black;
 }
 #gototop{ 
-    width:15%;
+    width:20vh;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius:50%;
 }
 #gototop a{
     background-color: white;
@@ -363,10 +364,18 @@ footer{
 padding: 1.5vw;
 margin-left:15vw;
    border-radius: 50%;
+   height:2vh;
+   width:2vh;
 }
 #gototop a:hover{
     border:2px solid black;
     color: #3586ff;
+}
+#gototop i{
+    transform:scale(1.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .waves{
     position: absolute;
