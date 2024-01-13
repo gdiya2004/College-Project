@@ -439,14 +439,17 @@ font-weight: bolder;
 .scroll-container{
     display:flex;
     flex-direction:row;
-overflow:auto;
+overflow:scroll;
 white-space:nowrap;
 margin-top: 0;
 height: 50vh;
 max-width: 50%;
-scrollbar-width:0vh;
-margin-left: 15vh;
-flex-wrap:nowrap;
+margin-left:15vh;
+}
+
+.scroll-container::-webkit-scrollbar{
+    width:0%;
+    height:0%;
 }
 .image{
     margin-left:5px;
