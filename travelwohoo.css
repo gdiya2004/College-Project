@@ -60,7 +60,7 @@
     color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 10vh;
+    margin-top: 15vh;
     font-family: 'Poppins', sans-serif;
     margin-left:1vh;
 }
@@ -69,13 +69,13 @@
     font-family: 'Poppins', sans-serif;
 }
 .JammuKashmir32{
-    height:910vh;
+    height:760vh;
   width:100%;
   display:flex;
 }
 .content32{
     width:50%;
-    height:910vh;
+    height:710vh;
 }
 .dallake32_img{
     background-image:url("Dal_lake.jpg");
@@ -164,11 +164,11 @@
 #contentleft{
     width: 25%;
     background-color:#ede6ce;
-    height: 910vh;
+    height:810vh;
 }
 #contentright_32{
     width: 25%;
-    height: 910vh;
+    height: 810vh;
 }
 #toc_32{
     position: sticky;
@@ -340,6 +340,7 @@
 #footer_32{
     position: relative;
     margin-top:6vh;
+    bottom: -70vh;
 }
 .waves18{
     position: absolute;
