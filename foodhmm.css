@@ -68,7 +68,7 @@
     margin-right: 10vh;
     font-family: 'Poppins', sans-serif;
 }
-.JammuKashmir32{
+.food32{
     height:900vh;
   width:100%;
   display:flex;
@@ -77,8 +77,8 @@
     width:50%;
     height:850vh;
 }
-.dallake32_img{
-    background-image:url("Dal_lake.jpg");
+.ambala32_img{
+    background-image:url("gol_32.jpg");
     background-size:cover;
     width:90%;
     height:50vh;
@@ -86,12 +86,12 @@
     margin-left:auto;
     margin-right:auto;
 }
-.dallake32_text{
+.ambala32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
 }
-.temple32_img{
+.sweet32_img{
     width:90%;
     height:50vh;
     margin-top:5vh;
@@ -99,28 +99,27 @@
     margin-right:auto;
     display:flex;
 }
-.templeone32_img{
-    background-image:url("temple32.png");
+.sweetone32_img{
+    background-image:url("rasgulla.webp");
     background-size:contain;
     background-repeat: no-repeat;
     width:50%;
     height:50vh;
 }
-.templetwo32_img{
-    background-image:url("temple_two32.jpg");
+.sweettwo32_img{
+    background-image:url("dhokla_32.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    margin-top:1vh;
     width:50%;
-    height:42vh;
-    margin-left:4vh;
+    height:43vh;
+   margin-left:4vh;
 }
-.temple32_text{
+.sweet32_text{
     margin-left:4vh;
     margin-right:4vh;
 }
-.chashme32_img{
-    background-image: url("chashme32.jpg");
+.cake32_img{
+    background-image: url("cake_32.webp");
    background-size:cover;
     width:90%;
     height:50vh;
@@ -128,35 +127,21 @@
     margin-left:auto;
     margin-right:auto;
 }
-.chashme32_text{
+.cake32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
 }
-.rafting32_img{
+.jalebi32_img{
+    background-image: url("jalebi.jpg");
+   background-size:cover;
     width:90%;
     height:50vh;
     margin-top:5vh;
     margin-left:auto;
     margin-right:auto;
-    display:flex;
 }
-.raftingone32_img{
-    background-image:url("rafting_one32.jpg");
-    background-size:contain;
-    background-repeat: no-repeat;
-    width:30%;
-    height:50vh;
-}
-.raftingtwo32_img{
-    background-image:url("rafting_two32.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    width:70%;
-    height:46vh;
-   margin-left:4vh;
-}
-.rafting32_text{
+.jalebi32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
@@ -182,8 +167,8 @@
     color: black;
     font-family: 'Poppins', sans-serif;   
 }
-.sinthan32_img{
-    background-image:url("top32_img.jpg");
+.anand32_img{
+    background-image:url("naan_32.jfif");
     background-size:cover;
     width:90%;
     height:50vh;
@@ -191,13 +176,13 @@
     margin-left:auto;
     margin-right:auto;
 }
-.sinthan32_text{
+.anand32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
 }
-.kheer32_img{
-    background-image:url("mandir_32.jpg");
+.ice32_img{
+    background-image:url("ice_32.jpeg");
     background-size:cover;
     width:90%;
     height:50vh;
@@ -205,13 +190,13 @@
     margin-left:auto;
     margin-right:auto;
 }
-.kheer32_text{
+.ice32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
 }
-.gulmarg32_img{
-    background-image:url("gulmarg32_img.jpg");
+.kachori32_img{
+    background-image:url("kachori_32.png");
     background-size:cover;
     width:90%;
     height:50vh;
@@ -219,13 +204,13 @@
     margin-left:auto;
     margin-right:auto;
 }
-.gulmarg32_text{
+.kachori32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
 }
-.police32_img{
-    background-image:url("police32_img.jpeg");
+.street32_img{
+    background-image:url("momo_32.jpg");
     background-size:cover;
     width:90%;
     height:50vh;
@@ -233,7 +218,7 @@
     margin-left:auto;
     margin-right:auto;
 }
-.police32_text{
+.street32_text{
     margin-top:2vh;
     margin-left:4vh;
     margin-right:4vh;
@@ -264,7 +249,7 @@
     margin-left:4vh;
 }
 .feedback_body32 h1{
-    margin-top: 5vh;
+    margin-top: 15vh;
     font-size: 45px;
     text-align: center; 
 }
