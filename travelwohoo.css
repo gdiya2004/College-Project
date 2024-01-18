@@ -3,7 +3,7 @@
     padding:0;
 }
 #navbarextend_32{
-    height: 60vh;
+    height: 56vh;
     background-color: black;
     width: 100%;
 }
@@ -69,13 +69,14 @@
     font-family: 'Poppins', sans-serif;
 }
 .JammuKashmir32{
-    height:900vh;
+    height:750vh;
     width:100%;
     display:flex;
+    font-size:1.2em;
 }
 .content32{
     width:50%;
-    height:850vh;
+    height:800vh;
 }
 .dallake32_img{
     background-image:url("Dal_lake.jpg");
@@ -340,7 +341,7 @@
 }
 #footer_32{
 position:relative;
-margin-top:30vh;
+bottom:-180vh;
 }
 .waves18{
     position: absolute;
