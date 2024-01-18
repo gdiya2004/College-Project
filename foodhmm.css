@@ -3,7 +3,7 @@
     padding:0;
 }
 #navbarextend_32{
-    height: 56vh;
+    height: 68vh;
     background-color: black;
     width: 100%;
 }
@@ -73,12 +73,10 @@
   width:100%;
   display:flex;
   text-align:justify;
-  font-size: 1.2em;
 }
 .content32{
     width:50%;
     height:900vh;
-    margin-bottom:0;
 }
 .ambala32_img{
     background-image:url("gol_32.jpg");

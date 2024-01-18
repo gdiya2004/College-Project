@@ -1,5 +1,5 @@
 #navbarextend{
-    height: 56vh;
+    height: 68vh;
     background-color: black;
     width: 100vw;
 }
@@ -73,12 +73,12 @@
     width: 25vw;
     border: 1px;
     background-color: beige;
-    height: 810vh;
+    height: 920vh;
 }
 #contentright{
     width: 25vw;
     border: 1px;
-    height: 810vh;
+    height: 920vh;
     
 }
 #contentmain{
@@ -89,7 +89,7 @@
     margin-top: 10vh;
     text-align: justify;
     overflow: hidden;
-    height: 810vh;
+    height: 920vh;
     font-family: 'Poppins', sans-serif;
 }
 #toc{
@@ -257,7 +257,7 @@
 }
 #footer{
     position: relative;
-    bottom: -330vh;
+    bottom: -450vh;
 }
 .waves18{
     position: absolute;
